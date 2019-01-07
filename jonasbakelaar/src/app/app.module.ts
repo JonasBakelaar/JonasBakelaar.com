@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { CoopComponent } from './coop/coop.component';
+import { UiModule } from './ui/ui.module';
 
 @NgModule({
   declarations: [
@@ -10,7 +11,8 @@ import { CoopComponent } from './coop/coop.component';
     CoopComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    UiModule
   ],
   providers: [],
   bootstrap: [AppComponent]
