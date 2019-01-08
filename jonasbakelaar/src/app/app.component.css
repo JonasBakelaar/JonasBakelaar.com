@@ -1,0 +1,12 @@
+.center {
+    margin: auto;
+    text-align: center;
+}
+
+.padding-bottom {
+    padding-bottom: 5px;
+}
+
+.rounded-corners {
+    border-radius: 50%;
+}
