@@ -6,9 +6,11 @@ import { AppComponent } from './app.component';
 import { CoopComponent } from './coop/coop.component';
 import { UiModule } from './ui/ui.module';
 import { HomeComponent } from './home/home.component';
+import { EmmetrosComponent } from './coop/emmetros/emmetros.component';
 
 const appRoutes: Routes = [
   { path: 'coop', component: CoopComponent },
+  { path: 'coop/emmetros', component: EmmetrosComponent},
   {
     path: 'home',
     component: HomeComponent,
@@ -25,7 +27,8 @@ const appRoutes: Routes = [
   declarations: [
     AppComponent,
     CoopComponent,
-    HomeComponent
+    HomeComponent,
+    EmmetrosComponent
   ],
   imports: [
     BrowserModule,
