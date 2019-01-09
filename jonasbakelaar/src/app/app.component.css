@@ -3,7 +3,11 @@
     text-align: center;
 }
 
-.padding-bottom {
+.padding-top-lg {
+    padding-top:20px;
+}
+
+.padding-bottom-sm {
     padding-bottom: 5px;
 }
 

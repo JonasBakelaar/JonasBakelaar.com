@@ -3,10 +3,11 @@
     text-align: center;
 }
 
-.padding-bottom {
-    padding-bottom: 5px;
+.margin-top-lg {
+    margin-top:50px;
 }
 
-.rounded-corners {
-    border-radius: 50%;
+a {
+    color:black;
+    text-decoration: none;
 }
