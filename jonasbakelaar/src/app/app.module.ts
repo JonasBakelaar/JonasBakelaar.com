@@ -7,6 +7,7 @@ import { CoopComponent } from './coop/coop.component';
 import { UiModule } from './ui/ui.module';
 import { HomeComponent } from './home/home.component';
 import { EmmetrosComponent } from './coop/emmetros/emmetros.component';
+import { MusicComponent } from './music/music.component';
 
 const appRoutes: Routes = [
   { path: 'coop', component: CoopComponent },
@@ -16,6 +17,7 @@ const appRoutes: Routes = [
     component: HomeComponent,
     data: { title: 'Jonas Bakelaar | Testing' }
   },
+  { path: 'music', component: MusicComponent},
   { path: '',
     redirectTo: '/home',
     pathMatch: 'full'
@@ -28,7 +30,8 @@ const appRoutes: Routes = [
     AppComponent,
     CoopComponent,
     HomeComponent,
-    EmmetrosComponent
+    EmmetrosComponent,
+    MusicComponent
   ],
   imports: [
     BrowserModule,
